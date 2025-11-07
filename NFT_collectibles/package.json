@@ -1,0 +1,25 @@
+{
+  "name": "nft_collectibles",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "fetch-evm": "node fetchEVMNFTs.js",
+    "fetch-bsc": "node fetchBSCNFTs.js",
+    "fetch-solana": "node fetchSolanaNFTs.js",
+    "send-evm": "node sendEVMNFTs.js",
+    "send-bsc": "node sendBSCNFTs.js",
+    "send-solana": "node sendSolanaNFTs.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "NFT fetching scripts for EVM, BSC, and Solana chains",
+  "dependencies": {
+    "ethers": "^6.15.0",
+    "@solana/web3.js": "^1.95.8",
+    "@metaplex-foundation/js": "^0.19.0",
+    "@solana/spl-token": "^0.4.8",
+    "bs58": "^5.0.0"
+  }
+}
