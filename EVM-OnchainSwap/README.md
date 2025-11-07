@@ -57,29 +57,6 @@ Note :- User need to approve the tokenAmountForSwap from fromToken to this contr
 
 after successful execution of this function user will get the desired tokens. 
 
-# Contract Addresses
-All the contract is deployed at Rinkeby network
-
-tokenA is deployed at (0x1E97446647d94d36e987e5b353Ec66Dd53B476aB)
-
-tokenB is deployed at (0xC52329f1e51E09D9a2B5da6426D9f946D6b16079)
-
-ERC 20 token contract is verified. [etherscan link](https://rinkeby.etherscan.io/address/0x1E97446647d94d36e987e5b353Ec66Dd53B476aB#code)
-
-MyLiquidity contract is deployed at [0x505B5ec5E027ceFbE7C32d1556dfCc23a7bE32cd](https://rinkeby.etherscan.io/address/0x505B5ec5E027ceFbE7C32d1556dfCc23a7bE32cd#code)
-
-# Important Transaction hashes
-
-Add Liquidity :- [0xa795e7040b3803325354aff66fcbda0e79a7ecbfc0b2e7e474df5bb946f71eec](https://rinkeby.etherscan.io/tx/0xa795e7040b3803325354aff66fcbda0e79a7ecbfc0b2e7e474df5bb946f71eec)
-
-swap Tokens :- [0x934a9ca08cdb4be6109952203907cf29805fe681c28eec587cc5f8409e60c5e1](https://rinkeby.etherscan.io/tx/0x934a9ca08cdb4be6109952203907cf29805fe681c28eec587cc5f8409e60c5e1)
-
-Remove Liquidity :- [0xa1f395c2198047fff44aac840406d9dfa0843c626f78fa6df8c51dc4d87ae1a8](https://rinkeby.etherscan.io/tx/0xa1f395c2198047fff44aac840406d9dfa0843c626f78fa6df8c51dc4d87ae1a8)
-
-# To run tests
-
-we have forked the rinkeby network .For details see hardhat.config.js
-
 to run the tests, first enter the all the necessary env details to a .env files (for details see .env.example files)
 
 then from root directory run,
