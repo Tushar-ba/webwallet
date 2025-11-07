@@ -137,7 +137,7 @@ node sendEVMNFTs.js https://eth.llamarpc.com 0xPrivateKey 0xContract 0xRecipient
 
 **Parameters:**
 - `rpcUrl` - RPC URL for the chain
-- `privateKey` - Sender's private key (⚠️ keep secure!)
+- `privateKey` - Sender's private key (keep secure!)
 - `contractAddress` - NFT contract address
 - `toAddress` - Recipient address
 - `tokenId` - Token ID to transfer
@@ -245,7 +245,7 @@ node sendSolanaNFTs.js https://api.devnet.solana.com <privateKey> <mintAddress> 
 
 ## Security Warning
 
-⚠️ **NEVER share your private keys!** Always keep them secure and never commit them to version control.
+**NEVER share your private keys!** Always keep them secure and never commit them to version control.
 
 ## Dependencies
 
